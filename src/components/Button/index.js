@@ -1,9 +1,7 @@
 import Alert from '~/Alert';
 
 function Button() {
-    return (
-        <button onClick={Alert}>click me</button>
-    )
+  return <button onClick={Alert}>click me</button>;
 }
 
-export default Button
+export default Button;
