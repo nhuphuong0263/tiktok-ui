@@ -1,9 +1,10 @@
-import Button from './components/Button';
+import TestRelativePath from './components/TestRelativePath';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      {/* <TestRelativePath /> */}
+      <h1>TikTok App</h1>
     </div>
   );
 }

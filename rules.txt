@@ -1,0 +1,22 @@
+***** change port *****
+1. create .env.local file
+
+***** relative path *****
+1. npm install customize-cra react-app-rewired babel-plugin-module-resolver
+2. create config-overrides file
+3. edit script at package.json file
+4. create jsconfig.json & .babelrc
+
+***** config pretties *****
+1. extendsion vscode -> install pretties
+2. create .prettierrc file
+3. create .vscode/setttings.json
+
+***** config css/scss *****
+1. create global component styles
+2. create GlobalStyles.scss, then to import to global component
+3. Wrap GlobalStyle component to App
+4. npm install -D sass
+5. delete all file default css of react
+6. reset css: npm i --save normalize.css
+7. import normalize.css to GlobalStyles.scss
