@@ -20,3 +20,9 @@
 5. delete all file default css of react
 6. reset css: npm i --save normalize.css
 7. import normalize.css to GlobalStyles.scss
+
+***** config router *****
+1. phan tich tong quan layout
+2. npm install react-router-dom
+3. Move config router to outside
+4. Build co che render layout
